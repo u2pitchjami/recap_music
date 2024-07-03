@@ -1,12 +1,14 @@
 #!/bin/bash
-COLLECTION="/mnt/user/Medias/Shared Music/Collection/"
-DOSSIER=/mnt/user/Documents/scripts/.recap_music/
+######CONFIGURATION###########################################################
+COLLECTION="/music/path/"
+DOSSIER=/path/to/liste1/file/ #this file is a base for check differences with music folder
 DATE=$(date "+%y%m%d_%H%M")
 LOG=recap_music.txt
-DOSSIERLOGS=/mnt/user/Documents/scripts/logs/
+DOSSIERLOGS=/path/for/logs/
+######CONFIGURATION###########################################################
 
 if [ ! -d $DOSSIER ];then
-echo "Création du dosser1 !";
+echo "Création du dossier1 !";
 mkdir $DOSSIER
 fi
 
