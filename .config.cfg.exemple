@@ -1,0 +1,8 @@
+######CONFIGURATION###########################################################
+COLLECTION="/music/path/"
+DOSSIER=/path/to/liste1/file/ #this file is a base for check differences with music folder
+DATE=$(date "+%y%m%d_%H%M")
+DOSSIERLOGS=/path/for/logs/
+LOG=recap_music.txt
+ACHECKER=/path/to/file/achecker.txt #work with Clips_Selection_Update
+######CONFIGURATION###########################################################

@@ -1,31 +1,40 @@
 #!/bin/bash
-######CONFIGURATION###########################################################
-COLLECTION="/music/path/"
-DOSSIER=/path/to/liste1/file/ #this file is a base for check differences with music folder
-DATE=$(date "+%y%m%d_%H%M")
-LOG=recap_music.txt
-DOSSIERLOGS=/path/for/logs/
-######CONFIGURATION###########################################################
+############################################################################## 
+#                                                                            #
+#	SHELL: !/bin/bash       version 2                                        #
+#									                                         #
+#	NOM: u2pitchjami    					                                 #
+#									                                         #
+#	                    					                                 #
+#									                                         #
+#	DATE: 01/09/2024	           				                             #
+#								                                    	     #
+#	BUT: Récapitulation des changements dans ma base musicale                #
+#									                                         #
+############################################################################## 
 
-if [ ! -d $DOSSIER ];then
-echo "Création du dossier1 !";
-mkdir $DOSSIER
+#définition des variables
+source .config.cfg
+
+if [ ! -d $DOSSIERLOGS ];then
+echo "Création du dossier Logs";
+mkdir $DOSSIERLOGS
 fi
 
 touch "$DOSSIERLOGS"$DATE"$LOG"
 
-#liste des dossiers modifiés sur les dernières 24h
-echo "Liste des dossiers modifiés sur les dernières 24h" | tee -a "$DOSSIERLOGS"$DATE"$LOG"
-find "${COLLECTION}" -maxdepth 2 -type d -mtime -1 | tee -a "$DOSSIERLOGS"$DATE"$LOG" | tee -a /mnt/user/Documents/scripts/re3/achecker.txt
+#liste des fichiers modifiés sur les dernières 24h
+echo "Liste des fichiers modifiés sur les dernières 24h (via find)" | tee -a "$DOSSIERLOGS"$DATE"$LOG"
+find "${COLLECTION}" -maxdepth 3 -type f -mtime -1 \( -iname "*.flac" -o -iname "*.mp3" \) | cut -d'/' -f1-7 | uniq | tee -a "$LOG" | tee -a "$ACHECKER"
 
 find "${COLLECTION}" -maxdepth 2 -type d > ${DOSSIER}liste2.txt
 
 #dossiers ajoutés
-echo "Artistes et albums créés ou modifiés" | tee -a "$DOSSIERLOGS"$DATE"$LOG"
+echo "Artistes et albums créés ou modifiés (comparaison de listes)" | tee -a "$DOSSIERLOGS"$DATE"$LOG"
 diff -u ${DOSSIER}liste1.txt ${DOSSIER}liste2.txt | grep '^-' | sed 's/^-//' | tee -a "$DOSSIERLOGS"$DATE"$LOG"
 
 #dossiers supprimés
-echo "Artistes et albums supprimés ou modifiés" | tee -a "$DOSSIERLOGS"$DATE"$LOG"
+echo "Artistes et albums supprimés ou modifiés (comparaison de listes)" | tee -a "$DOSSIERLOGS"$DATE"$LOG"
 diff -u ${DOSSIER}liste1.txt ${DOSSIER}liste2.txt | grep '^+' | sed 's/^+//' | tee -a "$DOSSIERLOGS"$DATE"$LOG"
 
 rm ${DOSSIER}liste1.txt
