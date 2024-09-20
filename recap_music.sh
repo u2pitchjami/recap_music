@@ -13,7 +13,7 @@
 #									                                         #
 ############################################################################## 
 #définition des variables
-source /home/pipo/bin/recap_music/.config.cfg
+source ./.config.cfg
 
 if [ ! -d $DOSSIERLOGS ];then
 echo "Création du dossier Logs";
