@@ -30,7 +30,7 @@ find ${COLLECTION} -maxdepth 2 -type d > ${DOSSIER}liste2.txt
 
 #dossiers ajoutés
 echo "Artistes et albums créés ou modifiés (comparaison de listes)" | tee -a "$LOG"
-diff -u ${DOSSIER}liste1.txt ${DOSSIER}liste2.txt | grep '^-' | sed 's/^-//' | tee -a "$LOG"
+diff -u ${DOSSIER}liste1.txt ${DOSSIER}liste2.txt | grep '^-' | sed 's/^-//' | tee -a "$LOG" | tee -a "$ACHECKER"
 
 #dossiers supprimés
 echo "Artistes et albums supprimés ou modifiés (comparaison de listes)" | tee -a "$LOG"
