@@ -1640,7 +1640,6 @@
 /mnt/user/Musiques/Collection/Donatello/2018 - [Single] - Waves
 /mnt/user/Musiques/Collection/Donatello/2018 - [Single] - Esperanza
 /mnt/user/Musiques/Collection/Donatello/2015 - [Single] - Two Of Us
-/mnt/user/Musiques/Collection/Donatello/2014 - [EP] - Floating EP
 /mnt/user/Musiques/Collection/Donatello/2015 - [Single] - This Is
 /mnt/user/Musiques/Collection/Donna Summer
 /mnt/user/Musiques/Collection/Donna Summer/1979 - [Single] - Bad Girls
@@ -2607,6 +2606,7 @@
 /mnt/user/Musiques/Collection/Iron Butterfly/1970 - [Album] - Live
 /mnt/user/Musiques/Collection/Iron Butterfly/1968 - [Album] - Heavy
 /mnt/user/Musiques/Collection/Iron Butterfly/2014 - [Album] - Live at the Galaxy 1967
+/mnt/user/Musiques/Collection/Iron Butterfly/1993 - [Album] - Light and Heavy The Best of Iron Butterfly
 /mnt/user/Musiques/Collection/Iron Maiden
 /mnt/user/Musiques/Collection/Iron Maiden/1982 - [Album] - The Number of the Beast
 /mnt/user/Musiques/Collection/Iron Maiden/2003 - [Album] - Dance of Death
@@ -3604,7 +3604,6 @@
 /mnt/user/Musiques/Collection/Mademoiselle K/2022 - [Album] - Mademoiselle K
 /mnt/user/Musiques/Collection/Madis
 /mnt/user/Musiques/Collection/Madis/2013 - [Single] - Under The Sea
-/mnt/user/Musiques/Collection/Madis/2020 - [Album] - Sea of Tranquility
 /mnt/user/Musiques/Collection/Madis/2020 - [EP] - Hometown EP
 /mnt/user/Musiques/Collection/Madison Cunningham
 /mnt/user/Musiques/Collection/Madison Cunningham/2020 - [EP] - Wednesday
@@ -4067,7 +4066,6 @@
 /mnt/user/Musiques/Collection/Midnight Fury
 /mnt/user/Musiques/Collection/Midnight Fury/2022 - [Album] - Infinite
 /mnt/user/Musiques/Collection/Midnight Fury/2021 - [Single] - Starscream
-/mnt/user/Musiques/Collection/Midnight Fury/2023 - [Album] - Metamorph
 /mnt/user/Musiques/Collection/Midnight Magic
 /mnt/user/Musiques/Collection/Midnight Magic/2010 - [Single] - Beam Me Up
 /mnt/user/Musiques/Collection/Miike Snow
@@ -8087,7 +8085,6 @@
 /mnt/user/Musiques/Collection/Alex Gopher (French DJ Alexis Latrobe)/2006 - [EP] - Spam EP
 /mnt/user/Musiques/Collection/Alex Gopher (French DJ Alexis Latrobe)/1999 - [Album] - You My Baby and I
 /mnt/user/Musiques/Collection/Alex Gopher (French DJ Alexis Latrobe)/2008 - [Single] - Aurora
-/mnt/user/Musiques/Collection/Alex Gopher (French DJ Alexis Latrobe)/2006 - [Album] - Alex Gopher
 /mnt/user/Musiques/Collection/u2pitchjami
 /mnt/user/Musiques/Collection/u2pitchjami/2023 - [Other] - Halloween Mix Season 4
 /mnt/user/Musiques/Collection/u2pitchjami/2023 - [Other] - We Don't Care About. but Not The Mix
@@ -9114,6 +9111,7 @@
 /mnt/user/Musiques/Collection/Confetti’s (Belgian new beat band)
 /mnt/user/Musiques/Collection/Confetti’s (Belgian new beat band)/1989 - [Single] - C in China
 /mnt/user/Musiques/Collection/Confetti’s (Belgian new beat band)/1989 - [Album] - Notre premier album
+/mnt/user/Musiques/Collection/Confetti’s (Belgian new beat band)/1989 - [Single] - Keep Smiling
 /mnt/user/Musiques/Collection/Conrad Schnitzler (German experimental electronic musician)
 /mnt/user/Musiques/Collection/Conrad Schnitzler (German experimental electronic musician)/2012 - [Album] - Zug Reshaped And Remodeled By Ricardo Villalobos and Max Loderbauer
 /mnt/user/Musiques/Collection/Convolute (Mathijs Baas & Sander Postma)
@@ -10138,6 +10136,16 @@
 /mnt/user/Musiques/Collection/Carl Cox (techno DJ)/2011 - [EP] - Nexus
 /mnt/user/Musiques/Collection/Carl Cox (techno DJ)/2011 - [EP] - Chemistry
 /mnt/user/Musiques/Collection/Carl Cox (techno DJ)/2018 - [Single] - Inferno
+/mnt/user/Musiques/Collection/Donatello (electronic producer)
+/mnt/user/Musiques/Collection/Donatello (electronic producer)/2014 - [EP] - Floating EP
+/mnt/user/Musiques/Collection/Alex Gopher (French mastering engineer, DJ & producer)
+/mnt/user/Musiques/Collection/Alex Gopher (French mastering engineer, DJ & producer)/2006 - [Album] - Alex Gopher
+/mnt/user/Musiques/Collection/Midnight Fury (Florida synthwave)
+/mnt/user/Musiques/Collection/Midnight Fury (Florida synthwave)/2023 - [Album] - Metamorph
+/mnt/user/Musiques/Collection/Madis (Poland; electronic music)
+/mnt/user/Musiques/Collection/Madis (Poland; electronic music)/2020 - [Album] - Sea of Tranquility
+/mnt/user/Musiques/Collection/Victor Le Masne
+/mnt/user/Musiques/Collection/Victor Le Masne/2024 - [Single] - Parade
 /mnt/user/Musiques/Collection/NTO (French producer)
 /mnt/user/Musiques/Collection/NTO (French producer)/2021 - [Album] - Apnea
 /mnt/user/Musiques/Collection/Gustav Mahler (composer)
