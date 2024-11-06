@@ -173,6 +173,4 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
-achecker.txt
-liste1.txt
-liste1.txt
+*.txt
