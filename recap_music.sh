@@ -25,7 +25,7 @@ touch "$LOG"
 cat "$ACHECKER" > ${SCRIPT_DIR}/TEMP
 #liste des fichiers modifiés sur les dernières 24h
 echo "Liste des fichiers modifiés sur les dernières 24h (via find)" | tee -a "$LOG"
-find ${COLLECTION} -maxdepth 3 -type f -mtime -1 \( -iname "*.flac" -o -iname "*.mp3" \) | cut -d'/' -f1-7 | uniq | tee -a "$LOG" | tee -a ${SCRIPT_DIR}/${SCRIPT_DIR}/TEMP
+find ${COLLECTION} -maxdepth 3 -type f -mtime -1 \( -iname "*.flac" -o -iname "*.mp3" \) | cut -d'/' -f1-7 | uniq | tee -a "$LOG" | tee -a ${SCRIPT_DIR}/TEMP
 #find ${COLLECTION} -maxdepth 3 -type f -mmin -60 \( -iname "*.flac" -o -iname "*.mp3" \) | cut -d'/' -f1-7 | uniq | tee -a "$LOG" | tee -a ${SCRIPT_DIR}/TEMP
 find ${COLLECTION} -maxdepth 2 -mindepth 2 -type d > ${DOSSIER}liste2.txt
 
